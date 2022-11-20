@@ -43,8 +43,8 @@ public class SalarioComBonus {
 		double discount = 0.15;
 		
 		double total = salary + totalVendas * discount;
-		
-		System.out.printf("Total: %.2f ", total);
+				
+		System.out.print(salary + totalVendas * discount);
 		
 		
 		
