@@ -40,15 +40,18 @@ public class Main {
                         System.out.println("O número que foi digitado é menor que o número sorteado.");
 
                     }
+
+                    if(i == tentativas -1){
+                        System.out.println();
+                        System.out.println("Game Over!!");
+                        System.out.println("Número sorteado: " + numeroAleatorio);
+
+                    }
+
             }
-
-
 
             }
         }
-
-
-        System.out.println("Número sorteado: " + numeroAleatorio);
 
     }
 }
